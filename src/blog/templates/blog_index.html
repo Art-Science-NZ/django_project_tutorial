@@ -1,8 +1,10 @@
+{% extends "base.html" %}
 
+{% block content %}
 <h1>This is the homepage</h1>
-
 {% for article in articles %}
 <p>
 {{article.title}}
 </p>
 {% endfor %}
+{% endblock %}
